@@ -1,13 +1,7 @@
-# CSCI 4541 Natural Language Processing HW 4
+# CSCI 4541 Natural Language Processing HW 4 (Prof. Andy Exley - University of Minnesota Twin Cities)
 # Adithya Saravu, Angela Lenling
 
-
-# HERE explain what your classification is, what is in your training set, and what your results on your test set are.
-# Our classification is between romance(1) and non-romance(0) novels. We randomly selected 1800 romance novels and 1800 non-romance novels. 
-# These labels were acquired from pg_catalog.csv of the Project Gutenberg data (https://www.gutenberg.org/cache/epub/feeds/). 
-# We start by randomly combining romance and non-romance texts and splitting our data into 80% training 20% test, and from the training data
-#  we hold 25% out for the dev set. This makes our training set 60% of the entire dataset, which is then vectorized and SGDClassifier() is trained
-#  on these vectorized texts. Our results on the test set are: 
+# Our results on the test set are: 
 # Test Accuracy: 0.8375
 #               precision    recall  f1-score   support
 
@@ -61,3 +55,4 @@ if __name__ == "__main__":
 
     label = classify(text, model, vectorizer)
     print(f"\nClassification result:  {label}\n")
+

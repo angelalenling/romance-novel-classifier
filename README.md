@@ -22,7 +22,7 @@ The repository contains:
 - model.dat – pickled (vectorizer, classifier) pair
 - data/romance/ – romance novels (.txt)
 - data/non_romance/ – non-romance novels (.txt)
-- 
+  
 Note: Raw text data is not included in this repository; see the Data section below.
 
 --------------------------------------

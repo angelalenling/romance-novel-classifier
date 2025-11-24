@@ -1,10 +1,8 @@
-# romance-novel-classifier
 Romance vs Non-Romance Book Classifier
 ======================================
 
 Authors: Adithya Saravu & Angela Lenling
-Course: CSCI 4541 – Natural Language Processing (University of Minnesota - Twin Cities)
-Instructor: Prof. Andy Exely
+Class Project: CSCI 4541 – Natural Language Processing (Prof. Andy Exley)
 
 --------------------------------------
 Project Overview
@@ -88,3 +86,14 @@ Results
 Test set performance (on 720 held-out novels):
 
 Test Accuracy: 0.8375 (≈ 0.84)
+
+--------------------------------------
+Academic Context
+--------------------------------------
+
+This repository was created as part of a homework assignment for:
+
+CSCI 4541 – Natural Language Processing  
+University of Minnesota  
+Instructor: Prof. Andy  
+Partners: Adithya Saravu & Angela Lenling

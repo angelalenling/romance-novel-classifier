@@ -1,8 +1,8 @@
 Romance vs Non-Romance Book Classifier
 ======================================
 
-Authors: Adithya Saravu & Angela Lenling
-Class Project: CSCI 4541 – Natural Language Processing (Prof. Andy Exley)
+- Authors: Adithya Saravu & Angela Lenling
+- Class Project: CSCI 4541 – Natural Language Processing (Prof. Andy Exley)
 
 --------------------------------------
 Project Overview

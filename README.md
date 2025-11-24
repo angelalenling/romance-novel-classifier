@@ -22,6 +22,22 @@ The repository contains:
 - model.dat – pickled (vectorizer, classifier) pair
 - data/romance/ – romance novels (.txt)
 - data/non_romance/ – non-romance novels (.txt)
+- 
+Note: Raw text data is not included in this repository; see the Data section below.
+
+--------------------------------------
+Data
+--------------------------------------
+
+The raw training data (full novels) from Project Gutenberg is NOT included in this repository due to size and distribution concerns.
+
+At training time, the code expects the following local folder structure:
+
+    data/
+      romance/       # Romance novels as .txt files
+      non_romance/   # Non-romance novels as .txt files
+
+In this GitHub repo, these folders only contain placeholder ".gitkeep" files so that the expected structure is visible. To retrain the model, download your own corpus from Project Gutenberg (or another source), label it as Romance (1) or Non-Romance (0), and place the `.txt` files into `data/romance` and `data/non_romance` before running `classifier_train.py`.
 
 --------------------------------------
 Classification Task
